@@ -1,8 +1,8 @@
 # M4BAN-Prueba-2
 
-## Introduccion
+## Introducción
 
-Una empresa de baldozas quiere programar un sistema para calulcar los costos de sus trabajos. Las baldozas pueden ser cuadradas o circulares. Ademas, las baldozas pueden ser de uno de los siguientes materiales: Cemento ($5) o Ladrillo ($10). El precio de cada baldoza se calcula como área de la baldoza _ precio del metro cuadrado _ precio del material.
+Una empresa de baldozas quiere programar un sistema para calulcar los costos de sus trabajos. Las baldozas pueden ser cuadradas o circulares. Además, pueden ser de uno de los siguientes materiales: Cemento ($5) o Ladrillo ($10). El precio de cada baldoza se calcula como área de la baldoza _ precio del metro cuadrado _ precio del material.
 
 ## Se pide:
 
