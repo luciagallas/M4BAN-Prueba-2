@@ -4,7 +4,7 @@ namespace BusinessLogic.Test;
 public class CalculatorTest
 {
     [TestMethod]
-    public void newCalculatorTest()
+    public void NewCalculatorTest()
     {
         var calculator = new CostCalculator();
         var baldosas = new List<Baldosa>();
@@ -13,3 +13,4 @@ public class CalculatorTest
         Assert.AreEqual(0.0, costoTotal);
     }
 }
+
