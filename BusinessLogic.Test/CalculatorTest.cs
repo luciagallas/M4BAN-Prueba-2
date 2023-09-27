@@ -36,5 +36,35 @@ public class CalculatorTest
         // Assert
         Assert.AreEqual(274.1592653589793, costoTotal, 0.0001); 
     }
+
+    [TestMethod]
+    public void areaBaldosaCuadrada()
+    {
+        // Arrange
+        var baldosa = new Baldosa { Tipo = "Cuadrada", Lado = 2, Material = "Cemento" };
+        var calculator = new CostCalculator();
+
+        // Act
+        double area = calculator.CalcularAreaBaldosaCuadrada(baldosa);
+
+        // Assert
+        Assert.AreEqual(4.0, area);
+
+    }
+
+    [TestMethod]
+    public void areaBaldosaCircular()
+    {
+        // Arrange
+        var baldosa = new Baldosa { Tipo = "Circular", Lado = 2, Material = "Cemento" };
+        var calculator = new CostCalculator();
+
+        // Act
+        double area = calculator.CalcularAreaBaldosaCircular(baldosa);
+
+        // Assert
+        Assert.AreEqual(4.0, area);
+
+    }
 }
 

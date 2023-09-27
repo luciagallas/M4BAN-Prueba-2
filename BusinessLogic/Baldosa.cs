@@ -14,4 +14,5 @@ namespace BusinessLogic
         public int Lado { get; set; }
         public string Material { get; set; }
     }
+
 }
