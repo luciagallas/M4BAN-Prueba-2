@@ -4,9 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace BusinessLogic
 {
-    internal class CostCalculator
+    public class CostCalculator
     {
+        public CostCalculator() { }
+
+        public double CalcularCostoTotal(List<Baldosa> baldosas, double precioPorMetroCuadrado)
+        {
+
+            throw new NotImplementedException();
+        }
     }
 }

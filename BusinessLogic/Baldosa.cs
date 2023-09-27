@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace BusinessLogic
 {
-    internal class Baldosa
+    public class Baldosa
     {
+        public Baldosa() { }
+
+        public string Tipo { get; set; }
+        public int Lado { get; set; }
+        public string Material { get; set; }
     }
 }
