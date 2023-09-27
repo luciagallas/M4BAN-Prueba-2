@@ -63,7 +63,9 @@ public class CalculatorTest
         double area = calculator.CalcularAreaBaldosaCircular(baldosa);
 
         // Assert
-        Assert.AreEqual(4.0, area);
+        var radio = baldosa.Lado / 2;
+        var areaEsperada = Math.PI * Math.Pow(radio, 2);
+        Assert.AreEqual(areaEsperada, area);
 
     }
 }
